@@ -47,16 +47,16 @@
 
         padding: 6rem 8vw;
 
-        /*
+         //posicion elementos lado derecho
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        */
-
-        display: grid;
-        align-content: center;
-        justify-items: start;
+         
+        //alternativa con grid
+        // display: grid;
+        // align-content: center;
+        // justify-items: start;
 
         @media only screen and (max-width: $bp-medium) {
             grid-column: 1 / -1;
